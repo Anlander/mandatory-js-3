@@ -1,0 +1,85 @@
+body {
+  background-color: orange;
+
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: helvetica;
+  position: relative;
+  top: 100px;
+
+
+
+}
+
+img {
+  position: relative;
+  left: 35%;
+  border: 1px solid black;
+  top: 150px;
+}
+
+button {
+  left: 35%;
+  position: relative;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid black;
+  width: 400px;
+  top: 150px;
+  cursor: pointer;
+
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 10%;
+  position: relative;
+  left: 17%;
+  top: -250px;
+
+
+
+
+
+
+}
+
+ul ul {
+  padding-left: 15px;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+
+
+
+
+
+}
+
+li {
+  cursor: crosshair;
+  border-bottom: 1px solid black;
+
+
+
+}
+
+
+
+span {
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+span:hover {
+  color: white;
+  background-color: black;
+}
