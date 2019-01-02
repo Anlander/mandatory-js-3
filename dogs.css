@@ -1,85 +1,40 @@
-body {
-  background-color: orange;
-
-}
-h1 {
-  font-size: 60px;
-  text-align: center;
-  font-family: helvetica;
-  position: relative;
-  top: 100px;
-
-
-
-}
-
 img {
-  position: relative;
-  left: 35%;
-  border: 1px solid black;
-  top: 150px;
+  height: 400px;
+  position: absolute;
+  left:33.5%;
+  top: 30%;
+  width:30%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
-  left: 35%;
+  padding: 20px;
+  position: absolute;
+  left:44%;
+  font-size: 20px;
+  top: 80%;
+
+}
+
+body {
+  background-color: pink;
+}
+
+select {
+  position: absolute;
+  left: 33.5%;
+  top: 27%;
+  font-size: 30px;
+}
+
+
+h1 {
   position: relative;
-  font-size: 15px;
-  background-color: white;
-  border: 1px solid black;
-  width: 400px;
-  top: 150px;
-  cursor: pointer;
-
-}
-
-
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  width: 10%;
-  position: relative;
-  left: 17%;
-  top: -250px;
-
-
-
-
-
-
-}
-
-ul ul {
-  padding-left: 15px;
-  text-decoration: none;
-  position: relative;
-  top: 0;
-
-
-
-
-
-}
-
-li {
-  cursor: crosshair;
-  border-bottom: 1px solid black;
-
-
-
-}
-
-
-
-span {
-  font-size: 25px;
-  position: relative;
-  text-decoration: none;
-  list-style-type: none;
-
-}
-
-span:hover {
-  color: white;
-  background-color: black;
+  left:34%;
+  font-size: 70px;
 }
